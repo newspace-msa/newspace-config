@@ -45,7 +45,7 @@ spring:
 
 eureka:
   instance:
-    hostname: newspace-backend
+    hostname: newspace-notice-service-${DEPLOY_TARGET_COLOR:blue}
     preferIpAddress: ${EUREKA_INSTANCE_PREFER_IP_ADDRESS:true}
   client:
     fetchRegistry: 'true'
