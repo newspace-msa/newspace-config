@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: ${SPRING_APPLICATION_NAME:newspace-backend}
+    name: ${SPRING_APPLICATION_NAME:newspace-user-service}
 
   token:
     access-token-expiration-time: 900000
@@ -42,7 +42,7 @@ spring:
 
 eureka:
   instance:
-    hostname: newspace-user-service-${DEPLOY_TARGET_COLOR:blue}
+    hostname: newspace-user-service
     preferIpAddress: ${EUREKA_INSTANCE_PREFER_IP_ADDRESS:true}
   client:
     fetchRegistry: 'true'

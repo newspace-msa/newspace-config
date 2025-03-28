@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: newspace-user-service-green
+
+eureka:
+  instance:
+    hostname: newspace-user-service-green
