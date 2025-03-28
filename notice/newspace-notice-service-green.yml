@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: newspace-notice-service-green
+
+eureka:
+  instance:
+    hostname: newspace-notice-service-green

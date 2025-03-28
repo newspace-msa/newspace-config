@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: ${SPRING_APPLICATION_NAME:newspace-backend}
+    name: ${SPRING_APPLICATION_NAME:newspace-news-service}
 
   ai:
     openai:
@@ -51,7 +51,7 @@ spring:
 
 eureka:
   instance:
-    hostname: newspace-news-service-${DEPLOY_TARGET_COLOR:blue}
+    hostname: newspace-news-service
     preferIpAddress: ${EUREKA_INSTANCE_PREFER_IP_ADDRESS:true}
   client:
     fetchRegistry: 'true'
