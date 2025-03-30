@@ -5,6 +5,12 @@ spring:
   application:
     name: ${SPRING_APPLICATION_NAME:newspace-gateway}
 
+  rabbitmq:
+    host: ${RABBITMQ_HOST:127.0.0.1}
+    port: 5672
+    username: guest
+    password: guest
+
   cloud:
     gateway:
       discovery:
