@@ -1,7 +1,0 @@
-spring:
-  application:
-    name: newspace-notice-service-blue
-
-eureka:
-  instance:
-    hostname: newspace-notice-service-blue

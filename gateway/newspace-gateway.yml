@@ -18,16 +18,16 @@ spring:
           enabled: true  # Eureka에서 서비스 목록 자동 탐색
           lower-case-service-id: true
       routes:
-        - id: "newspace-user-service-${USER_SERVICE_STATUS:blue}"
-          uri: "lb://newspace-user-service-${USER_SERVICE_STATUS:blue}"  # Eureka에서 유저서비스 서비스 찾기
+        - id: "newspace-user-service"
+          uri: "lb://newspace-user-service"  # Eureka에서 유저서비스 서비스 찾기
           predicates:
             - Path=/api/**
-        - id: "newspace-notice-service-${NOTICE_SERVICE_STATUS:blue}"
-          uri: "lb://newspace-notice-service-${NOTICE_SERVICE_STATUS:blue}"  # Eureka에서 알림서비스 서비스 찾기
+        - id: "newspace-notice-service"
+          uri: "lb://newspace-notice-service"  # Eureka에서 알림서비스 서비스 찾기
           predicates:
             - Path=/api/**
-        - id: "newspace-news-service-${NEWS_SERVICE_STATUS:blue}"
-          uri: "lb://newspace-news-service-${NEWS_SERVICE_STATUS:blue}"  # Eureka에서  뉴스서비스 찾기
+        - id: "newspace-news-service"
+          uri: "lb://newspace-news-service"  # Eureka에서  뉴스서비스 찾기
           predicates:
             - Path=/api/**
 

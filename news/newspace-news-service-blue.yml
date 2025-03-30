@@ -1,7 +1,0 @@
-spring:
-  application:
-    name: newspace-news-service-blue
-
-eureka:
-  instance:
-    hostname: newspace-news-service-blue
