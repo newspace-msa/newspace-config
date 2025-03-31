@@ -42,8 +42,9 @@ spring:
 
 eureka:
   instance:
-    hostname: newspace-notice-service
     preferIpAddress: ${EUREKA_INSTANCE_PREFER_IP_ADDRESS:true}
+    ip-address: ${EUREKA_INSTANCE_HOST_IP:172:18.0.2}
+    instance-id: ${spring.application.name}:${server.port}
   client:
     fetchRegistry: 'true'
     registerWithEureka: 'true'
