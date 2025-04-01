@@ -36,6 +36,7 @@ eureka:
     hostname: newspace-gateway
     preferIpAddress: ${EUREKA_INSTANCE_PREFER_IP_ADDRESS:true}
   client:
+    registry-fetch-interval-seconds: 3
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
