@@ -21,15 +21,15 @@ spring:
         - id: "newspace-user-service"
           uri: "lb://newspace-user-service"  # Eureka에서 유저서비스 서비스 찾기
           predicates:
-            - Path=/api/**
+            - Path=/api/user*/**
         - id: "newspace-notice-service"
           uri: "lb://newspace-notice-service"  # Eureka에서 알림서비스 서비스 찾기
           predicates:
-            - Path=/api/**
+            - Path=/api/notice*/**
         - id: "newspace-news-service"
           uri: "lb://newspace-news-service"  # Eureka에서  뉴스서비스 찾기
           predicates:
-            - Path=/api/**
+            - Path=/api/news*/**
 
 eureka:
   instance:
