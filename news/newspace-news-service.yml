@@ -51,8 +51,8 @@ spring:
 
 eureka:
   instance:
-    hostname: newspace-news-service
     preferIpAddress: ${EUREKA_INSTANCE_PREFER_IP_ADDRESS:true}
+    hostname: newspace-news-service
   client:
     fetchRegistry: 'true'
     registerWithEureka: 'true'

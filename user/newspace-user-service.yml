@@ -42,8 +42,8 @@ spring:
 
 eureka:
   instance:
-    hostname: newspace-user-service
     preferIpAddress: ${EUREKA_INSTANCE_PREFER_IP_ADDRESS:true}
+    hostname: newspace-user-service
   client:
     fetchRegistry: 'true'
     registerWithEureka: 'true'
