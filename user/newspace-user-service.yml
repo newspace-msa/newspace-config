@@ -45,7 +45,7 @@ eureka:
     preferIpAddress: ${EUREKA_INSTANCE_PREFER_IP_ADDRESS:true}
     hostname: newspace-user-service
     metadata-map:
-      management.port: 8080
+      management.port: 32799
   client:
     fetchRegistry: 'true'
     registerWithEureka: 'true'
