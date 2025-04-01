@@ -1,4 +1,4 @@
-# newspace-deploy
+# newspace-config
 <img src="https://github.com/user-attachments/assets/04d415b7-b379-4a0b-9aba-ff1d3609db85" width="300" />
 
 <br>
@@ -8,6 +8,8 @@ newspace-config 입니다.
 <br>
 
 ## 📍 프로젝트 설명
+25.03.27 ~ 25.04.2
+<br>
 LG CNS AM Inspire Camp
 <br>
 미니프로젝트 2 - 9조
