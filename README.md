@@ -41,7 +41,8 @@ LG CNS AM Inspire Camp
 <br/>
 
 ## 🏗️ 시스템 아키텍처
-![image](https://media.discordapp.net/attachments/1355032731234336798/1356602546273390592/image.webp?ex=67ed2a13&is=67ebd893&hm=8541702842be7512cbdcaf4b94296d582b256e16cb2cee1bac7f8807ba92095d&=&format=webp&width=1225&height=850)
+![image](https://github.com/user-attachments/assets/1eace00c-36e0-4520-afbd-d7f1872a1e9a)
+
 
 ## 📦 Github Repository
 전체 : https://github.com/orgs/newspace-msa/repositories
